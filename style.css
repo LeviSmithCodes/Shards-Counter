@@ -1,0 +1,50 @@
+#button-col,
+#button-down-col,
+#computer-choice,
+#title,
+#col-img,
+#win-loss,
+#rules-text,
+#credit-col {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #5ec5ba;
+}
+
+#title {
+  background-color: var(--secondary) !important;
+}
+
+.btn {
+  margin: 0px 5px;
+  color: #5ec5ba !important;
+  outline-color: #5ec5ba !important;
+}
+
+#img-rules {
+  height: 50vh;
+  width: 50vh;
+}
+
+/* I know, I know */
+html,
+body,
+header,
+main,
+footer {
+  background-color: #15133c;
+}
+
+#computer-choice {
+  min-height: 3em;
+}
+
+.credit-text {
+  font-size: x-small;
+}
+
+/* .rules-text{
+  font-size:xx-small
+  color: 
+} */
